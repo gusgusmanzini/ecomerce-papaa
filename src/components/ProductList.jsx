@@ -4,15 +4,15 @@ import styles from "./ProductList.module.css"
 const products = [
   {
     id: 1,
-    name: "Bloque Prensado. ",
-    description: "bloque de hormigon.",
+    name: "Bloque Vibroprensado. ",
+    description: "Bloque de Hormigon Vibroprensado .",
     
     images: ["/bloque1 (2).jpg", "/bloque2 (2).jpg"],
   },
   {
     id: 2,
-    name: "Caño",
-    description: "caño de hormigon",
+    name: "Caño Vibroprensado",
+    description: "Caño de Hormigon Vibroprensado.",
    
     images: ["/caños1_square.jpg", "/caños2_square.jpg"],
   },
