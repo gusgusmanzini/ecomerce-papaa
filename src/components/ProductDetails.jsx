@@ -14,16 +14,16 @@ import caños2 from "/caños2_square.jpg";
 const products = [
   {
     id: 1,
-    name: "Zapatillas Deportivas",
-    description: "Zapatillas cómodas y ligeras, perfectas para correr o entrenar.",
-    price: "$59.99",
+    name: "Bloque Prensado",
+    description: "Bloque Vibroprensado de 12 × 19 × 39 cm.",
+
     images: [bloque1, bloque2],
   },
   {
     id: 2,
-    name: "Reloj Inteligente",
-    description: "Reloj inteligente con múltiples funciones y diseño elegante.",
-    price: "$99.99",
+    name: "Caño De Hormigon Vibrocomprimido",
+    description: "Caños de hormigon vibrocomprimidos con medidas de: 300x1000MM, 400x1000MM y 500x1000MM.",
+ 
     images: [caños1, caños2],
   },
 ]
@@ -79,7 +79,8 @@ function ProductDetails() {
           <h1 className={styles.productName}>{product.name}</h1>
           <p className={styles.productDescription}>{product.description}</p>
           <p className={styles.productPrice}>{product.price}</p>
-          <button className={styles.addToCartButton}>Agregar al Carrito</button>
+          
+          <p className="precio">Para consultar precio comunicarse a 095 028 993</p>
         </div>
       </div>
     </main>

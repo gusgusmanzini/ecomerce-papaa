@@ -4,16 +4,16 @@ import styles from "./ProductList.module.css"
 const products = [
   {
     id: 1,
-    name: "Bloque ",
+    name: "Bloque Prensado. ",
     description: "bloque de hormigon.",
-    price: "$59.99",
+    
     images: ["/bloque1 (2).jpg", "/bloque2 (2).jpg"],
   },
   {
     id: 2,
-    name: "caño",
+    name: "Caño",
     description: "caño de hormigon",
-    price: "$99.99",
+   
     images: ["/caños1_square.jpg", "/caños2_square.jpg"],
   },
 ]
