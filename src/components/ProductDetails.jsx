@@ -14,7 +14,7 @@ import caños2 from "/caños2_square.jpg";
 const products = [
   {
     id: 1,
-    name: "Bloque Prensado",
+    name: "Bloque Vibroprensado",
     description: "Bloque Vibroprensado de 12 × 19 × 39 cm.",
 
     images: [bloque1, bloque2],

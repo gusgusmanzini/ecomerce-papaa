@@ -11,8 +11,8 @@ const products = [
   },
   {
     id: 2,
-    name: "Caño Vibroprensado",
-    description: "Caño de Hormigon Vibroprensado.",
+    name: "Caño De Hormigon VIbrocomprimido",
+    description: "Caño de Hormigon VIbrocomprimido.",
    
     images: ["/caños1_square.jpg", "/caños2_square.jpg"],
   },
