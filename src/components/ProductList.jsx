@@ -1,22 +1,28 @@
-import { Link } from "react-router-dom"
-import styles from "./ProductList.module.css"
+import { Link } from "react-router-dom";
+import styles from "./ProductList.module.css";
 
 const products = [
   {
     id: 1,
     name: "Bloque Vibroprensado. ",
     description: "Bloque de Hormigon Vibroprensado .",
-    
+
     images: ["/bloque1 (2).jpg", "/bloque2 (2).jpg"],
   },
   {
     id: 2,
     name: "Caño De Hormigon VIbrocomprimido",
-    description: "Caño de Hormigon VIbrocomprimido.",
-   
+    description: "Caño de Hormigon Vibrocomprimido.",
+
     images: ["/caños1_square.jpg", "/caños2_square.jpg"],
   },
-]
+  {
+    id: 3,
+    name: "Bloque U De Hormigon Vibrocomprimido",
+    description: "Bloques U De Hormigon Vibrocomprimido",
+    images: ["bloqueu.jpg"],
+  },
+];
 
 function ProductList() {
   return (
@@ -24,8 +30,16 @@ function ProductList() {
       <h1 className={styles.title}>Nuestros Productos</h1>
       <div className={styles.productGrid}>
         {products.map((product) => (
-          <Link to={`/product/${product.id}`} key={product.id} className={styles.productCard}>
-            <img src={product.images[0] || "/placeholder.svg"} alt={product.name} className={styles.productImage} />
+          <Link
+            to={`/product/${product.id}`}
+            key={product.id}
+            className={styles.productCard}
+          >
+            <img
+              src={product.images[0] || "/placeholder.svg"}
+              alt={product.name}
+              className={styles.productImage}
+            />
             <h2 className={styles.productName}>{product.name}</h2>
             <p className={styles.productDescription}>{product.description}</p>
             <p className={styles.productPrice}>{product.price}</p>
@@ -38,7 +52,7 @@ function ProductList() {
          */}
       </div>
     </main>
-  )
+  );
 }
 
-export default ProductList
+export default ProductList;
